@@ -1002,4 +1002,4 @@ dig pixel.facebook.com
 dig advertising.twitter.com
 dig ads.reddit.com
 dig analytics-sg.tiktok.com
-dig yandexadexchange.net
+dig yandexadexchange.net 

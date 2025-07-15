@@ -6,4 +6,4 @@ echo "Updating the system"
 echo "[password]" | sudo -S whoami
 yes | sudo pacman -Syu
 yay -Su
-flatpak update
+flatpak update 

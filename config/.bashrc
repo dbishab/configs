@@ -45,4 +45,4 @@ alias h="sh /home/bishab/Scripts/hour.sh" # Script to output hourly internet usa
 
 # iDrive Integration
 alias idrive='/opt/IDriveForLinux/bin/idrive'
-# Created by idrive as shortcut.
+# Created by idrive as shortcut. 

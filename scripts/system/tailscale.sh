@@ -1,6 +1,6 @@
 #!/bash/sh
 
-# Taildrop usage to save a file
+# Taildrop script to save a file
 
 echo "Tailscale FileSystem"
 echo "[password]" | sudo sudo tailscale file get /home/[user]/Downloads/Tailscale

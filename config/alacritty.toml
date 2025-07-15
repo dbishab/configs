@@ -1,14 +1,15 @@
 [window]
 
-opacity = 1.0
+opacity = 1.0 # Determines the opacity of the background 
 
 padding.x = 10
 padding.y = 10
 
-decorations = "none"
-decorations_theme_variant = "Dark" # "Loght"
+decorations = "none" # Removes the titlebar and menu options at top
+decorations_theme_variant = "Dark" # "Light"
 
-[font]
+[font] 
+# use nerd font if you need icons on the terminal
 normal = { family = "JetBrainsMono", style = "Bold" }
 bold = { family = "JetBrainsMono", style = "Bold" }
 italic = { family = "JetBrainsMono", style = "Bold Italic" } # optional
@@ -20,8 +21,8 @@ style = { shape = "Beam" }
 unfocused_hollow = false
 
 [colors.primary]
-background = "#000000"
-foreground = "#ffffff"
+background = "#000000" # Absolute Black
+foreground = "#ffffff" # Absoulte white
 
 [colors.normal]
 black   = "#1c1c1c"

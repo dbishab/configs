@@ -1,8 +1,7 @@
-This is a basic script page for using [vnstat]. 
+This document provides a basic script template for utilizing the [vnstat] utility.
 
-Using these scripts require installation of [vnstat] package.
+Prior to executing these scripts, ensure that the [vnstat] package is properly installed on the system.
 
-Any additional configs on [vnstat] command requires the name of interfaces.
-These interfaces could be found using the command [ifconfig]. This command could be installed using the package [net-tools]. 
+Most [vnstat] commands require specification of a network interface. The available interfaces can be listed using the [ifconfig] command, which is provided by the [net-tools] package (and may need to be installed separately).
 
-In this file, two interfaces used are [wlan0] for wifi and [tailscale0] for tailscale. These interfaces could be changed according to user needs and demands. If the user has more than given interfaces, same command could be repeated with the other interface.
+In this script, two network interfaces are referenced: [wlan0] for the Wi-Fi connection and [tailscale0] for the Tailscale VPN. These interface names are configurable and should be adjusted based on the user's system configuration. If additional interfaces are present, the same [vnstat] commands may be replicated for each desired interface.

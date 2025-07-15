@@ -9,8 +9,8 @@ clear
 #Divider
 echo "#######################################################################################"
 
-# Heading: Hourly Traffic - wlan0
-echo "Hourly Traffic: wlan0"
+# Heading: Hourly Traffic - Total
+echo "Hourly Traffic: Total"
 vnstat -h -i wlan0+tailscale0
 echo ""
 

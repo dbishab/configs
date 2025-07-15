@@ -1,6 +1,7 @@
 #!/bash/sh
 
 # Most common 1000 pings made by devices.
+# Requires [bind-tools] to work.
 
 dig graph.facebook.com
 dig ext2.temp-mail.org
